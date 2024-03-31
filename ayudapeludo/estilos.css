@@ -1,0 +1,82 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif;
+  }
+
+   .menu-lateral {
+    width: 20%;
+    height: 100vh;
+    background-color: #333;
+    border: 2px solid black;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+
+  .lateral {
+    width: 5%;
+    height: 100vh;
+    background-color: #333;
+    border: 2px solid black;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    position: fixed;
+    right: 0;
+    top: 0;
+  }
+
+  .contenedor-secciones {
+    position: absolute; left: 20%; right:5%;
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .seccion1 {
+    flex: 1;
+    height: 25%;
+    border: 2px solid black;
+    box-sizing: border-box;
+    background-color: lightblue;
+    transition: color 0.3s ease;
+  }
+
+  .seccion2 {
+    flex: 1;
+    height: 25%;
+    border: 2px solid black;
+    box-sizing: border-box;
+    background-color: yellow;
+    transition: color 0.3s ease;
+  }
+
+  .seccion3 {
+    flex: 1;
+    height: 25%;
+    border: 2px solid black;
+    box-sizing: border-box;
+    background-color: orange;
+    transition: color 0.3s ease;
+  }
+
+  .seccion4 {
+    flex: 1;
+    height: 25%;
+    border: 2px solid black;
+    box-sizing: border-box;
+    background-color: red;
+    transition: color 0.3s ease;
+  }
+
+  .seccion1:hover { color: #888; }
+  .seccion2:hover { color: #888; }
+  .seccion3:hover { color: #888; }
+  .seccion4:hover { color: #888; }
+  .menu-lateral:hover { color: #888; }
